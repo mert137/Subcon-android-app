@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundoku">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/gazete">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.3"
+                    android:background="@color/black"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/fragment_categories_text"
+                        android:text="Gazete" />
+                    <Button
+                        android:id="@+id/see_all_gazete"
+                        style="@style/fragment_categories_button" />
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/cardView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/see_all_gazete"
+                        android:layout_marginBottom="10dp" />
+                </RelativeLayout>
+            </FrameLayout>
+
+
+
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.3"
+                    android:background="@color/black"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/fragment_categories_text"
+                        android:text="Dergi" />
+                    <Button
+                        android:id="@+id/see_all_dergi"
+                        style="@style/fragment_categories_button"/>
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/cardView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/see_all_dergi"
+                        android:layout_marginBottom="10dp" />
+                </RelativeLayout>
+            </FrameLayout>
+
+
+
+
+
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.3"
+                    android:background="@color/black"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/fragment_categories_text"
+                        android:text="Kitap" />
+                    <Button
+                        android:id="@+id/see_all_kitap"
+                        style="@style/fragment_categories_button"/>
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/cardView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/see_all_kitap"
+                        android:layout_marginBottom="10dp" />
+                </RelativeLayout>
+            </FrameLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

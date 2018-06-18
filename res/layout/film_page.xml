@@ -1,0 +1,90 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fragment.subcontechs.FilmPageFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#29412B"
+    android:gravity="center">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/play_movie"
+        android:layout_width="120dp"
+        android:layout_height="37dp"
+        app:srcCompat="@drawable/play_movie"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginStart="39dp" />
+
+    <ImageButton
+        android:id="@+id/watch_trailer"
+        android:layout_width="120dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="18dp"
+        app:srcCompat="@drawable/watch_trailer"
+        android:layout_below="@+id/play_movie"
+        android:layout_alignStart="@+id/play_movie" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ECECEC"
+        android:layout_below="@+id/watch_trailer"
+        android:layout_alignStart="@+id/watch_trailer"
+        android:layout_marginTop="26dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ECECEC"
+        android:textSize="15sp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginTop="12dp" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ECECEC"
+        android:textSize="12sp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignEnd="@+id/watch_trailer"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/border_style"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ECECEC"
+        android:background="@drawable/border_style"
+        android:textSize="12sp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
+
+</RelativeLayout>
+</ScrollView>

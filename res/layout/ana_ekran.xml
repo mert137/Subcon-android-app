@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.fragment.subcontechs.AnaEkran"
+    android:background="#B3B9C0">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/discover_button"
+                android:background="@drawable/kesfet"
+                style="@style/home_fragment_buttons"
+                android:text="Keşfet" />
+
+            <Button
+                android:id="@+id/film_button"
+                style="@style/home_fragment_buttons"
+                android:background="@drawable/izle"
+                android:text="İzle" />
+
+            <Button
+            android:id="@+id/music_button"
+            style="@style/home_fragment_buttons"
+            android:background="@drawable/dinle"
+            android:text="Dinle" />
+
+
+        <Button
+            android:id="@+id/oyun_button"
+            android:text="Oyna"
+            android:background="@drawable/oyna"
+            style="@style/home_fragment_buttons" />
+
+            <Button
+                android:id="@+id/futbol_button"
+                android:background="@drawable/futbol"
+                style="@style/home_fragment_buttons"
+                android:text="Futbol" />
+
+            <Button
+                android:id="@+id/oku_button"
+                android:text="Oku"
+                android:background="@drawable/oku"
+                style="@style/home_fragment_buttons" />
+
+        <Button
+            android:id="@+id/ogren_button"
+            android:text="Öğren"
+            android:background="@drawable/ogren"
+            style="@style/home_fragment_buttons" />
+
+
+</LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

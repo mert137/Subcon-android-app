@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmusic">
+    <GridView
+        android:id="@+id/musicGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:columnWidth="165dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="15dp"
+        android:horizontalSpacing="15dp"
+        android:stretchMode="columnWidth"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
+
+
+    <!--horizontal spacing ile thumbnailler arası boşluk belirlenir-->
