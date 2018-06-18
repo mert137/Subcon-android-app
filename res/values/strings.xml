@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Subcon</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="ipaddr">http://192.168.43.100</string>
+
+    <string name="ipaddr2">http://165.227.189.254</string>
+
+    <string name="pathtofilm">/videos/</string>
+    <string name="pathtotrailer">/trailers/</string>
+
+    <string name="pathtothumbnail">/thumbnails/film/</string>
+    <string name="pathtothumbnailmusic">/thumbnails/music/</string>
+    <string name="pathtogamethumbnail">/thumbnails/game/</string>
+    <string name="pathtokuthumbnail">/thumbnails/oku/</string>
+
+    <string name="pathtomusic">/music/</string>
+
+    <string name="pathtogame">/game/</string>
+
+    <string name="pathtoku">/oku/</string>
+
+    <string name="moviecannotopen">Filmi izleyebilmek için SUBCON serverına bağlanmanız gerekir.</string>
+
+    <string name="yenikapi">Yenikapı İstanbul\'un Fatih ilçesi sınırları içinde Marmara Denizi sahilinde
+        yer alan bir semttir. Ayrıca İstanbul Surları\'nın kapılarından biridir. Semt Kennedy Caddesi ve
+        Mustafa Kemal Caddesi\'nin kesiştiği noktanın etrafında gelişmiştir. Batıda Samatya, doğuda Kumkapı,
+        kuzeyinde ise Aksaray semtlerine komuşudur. \n\n Yenikapı semti Marmara Denizi kıyısında
+        bulunan diğer semtler gibi Rum ve Ermeni vatandaşlarının yoğunlukta bulunduğu bir semtti.
+        20. yüzyılda gazino, taverna, lunapark ve çay bahçelerinin yoğunlaştığı bir yer haline geldi.
+        İstanbul\'un Avrupa yakasına hizmet veren Banliyö trenlerinin bir istasyonu Yenikapı\'da bulunmaktadır.
+        Günümüzde Marmara Denizi\'ndeki çeşitli noktalara giden deniz otobüsleri ve feribotlar Yenikapı\'dan kalkmaktadır.
+        Yenikapı\'da Marmaray projesine ait yeraltı istasyonu 2013\'den beri hizmet vermektedir. M2 Hattı ve M1 Hattı Yenikapı\'da
+        sonlanmaktadır.
+    </string>
+
+</resources>

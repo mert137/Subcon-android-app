@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="movie_categories">
+        <item>vizyondakiler</item>
+        <item>kisiselgelisim</item>
+    </string-array>
+
+    <string-array name="music_categories">
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Türk Sanat Müziği</item>
+        <item>Klasik</item>
+        <item>Caz</item>
+    </string-array>
+
+    <integer-array name="music_category_thumbnails">
+        <item>@drawable/pop</item>
+        <item>@drawable/rock</item>
+        <item>@drawable/tsm</item>
+        <item>@drawable/klasik</item>
+        <item>@drawable/caz</item>
+    </integer-array>
+
+    <string-array name="futbol_categories">
+
+    </string-array>
+
+    <integer-array name="futbol_category_thumbnails">
+
+    </integer-array>
+
+    <integer-array name="kesfet_category_thumbnails">
+        <item>@drawable/muze</item>
+        <item>@drawable/tarih</item>
+        <item>@drawable/doga</item>
+        <item>@drawable/gezi</item>
+
+    </integer-array>
+
+    <string-array name="oku_categories">
+        <item>Gazete</item>
+        <item>Dergi</item>
+        <item>E-kitap</item>
+    </string-array>
+
+    <string-array name="ogren_categories">
+        <item>Yemek Tarifleri</item>
+        <item>İngilizce</item>
+        <item>Fotoğrafçılık</item>
+    </string-array>
+
+    <integer-array name="ogren_category_thumbnails">
+        <item>@drawable/yemek</item>
+        <item>@drawable/ingilizce</item>
+        <item>@drawable/foto</item>
+    </integer-array>
+
+    <integer-array name="kesfet_durak_thumbnails">
+        <item>@drawable/m1a</item>
+        <item>@drawable/m1b</item>
+        <item>@drawable/m2</item>
+        <item>@drawable/m3</item>
+        <item>@drawable/m4</item>
+        <item>@drawable/m5</item>
+        <item>@drawable/m6</item>
+        <item>@drawable/m7</item>
+    </integer-array>
+</resources>
